@@ -39,7 +39,6 @@ Fin-HypoTermQA/
 │   │   ├── PJ/                   # Evaluation project data
 │   │   ├── main.py               # Evaluation main program
 │   │   ├── evaluator.py          # Core evaluator
-│   │   ├── judge.PY              # Judge module
 │   │   └── llmproject.py         # LLM project management
 │   ├── table/                     # Table data
 │   │   ├── FinRAD_Full_13000.csv # Complete FinRAD dataset
@@ -157,23 +156,6 @@ python main.py
 - **500 entries**: Medium-scale validation data
 - **3000 entries**: Large-scale production data
 
-## 🤖 Model Comparison
-
-| Feature | DeepSeek | Qwen |
-|---------|----------|------|
-| Prompt Strategies | 4 templates | 4 templates |
-| Processing Speed | Fast | Medium |
-| Output Quality | High | Very High |
-| Cost Efficiency | Good | Optimal |
-
-## 📈 Evaluation Metrics
-
-The LLM evaluation system includes the following dimensions:
-- **Accuracy**: Answer correctness evaluation
-- **Completeness**: Answer content completeness
-- **Clarity**: Expression clarity
-- **Relevance**: Relevance to the question
-
 ## ⚠️ Important Notes
 
 1. **API Key Security**: Safeguard API keys from all platforms
@@ -188,14 +170,9 @@ Common issues and solutions:
 2. **Data Format Errors**: Confirm input file formats meet requirements
 3. **Memory Insufficient**: Reduce batch processing size or increase system memory
 4. **Encoding Issues**: Ensure files use UTF-8 encoding
-
-## 👥 Development Team
-
-This project is developed by a financial AI research team, focusing on intelligent QA system construction in the financial education domain.
-
 ## 📄 License
 
-This project is for academic research and educational purposes only.
+This project is for academic research only.
 
 ---
 <p align="center">

@@ -1,1 +1,0 @@
-Fin-HypoTermQA is a benchmark dataset for systematically evaluating whether large language models (LLMs) can recognize and appropriately reject fictitious financial terminology — a critical safety challenge when deploying LLMs in high-stakes financial domains.

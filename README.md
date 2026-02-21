@@ -13,7 +13,7 @@ Fin-HypoTermQA is a comprehensive financial terminology question-answering gener
 ## 🗂️ Project Structure
 
 ```
-Fin-HypoTermQA 2/
+Fin-HypoTermQA/
 ├── Code/                          # Main project code directory
 │   ├── data/                      # Dataset directory
 │   │   ├── 3000data/             # 3000 QA pairs
